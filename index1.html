@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template</title>
+  <meta  charset="utf-8">
+  <meta name="description" content="My sites">
+  <meta name="keywords" content="test,web-sites">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href ="https://fonts.googleapis.com/css2? family = Open + Sans: wght @ 300; 400; 700 & display = swap" rel =" stylesheet ">
+  <link rel="stylesheet" href="css/main1.css">
+</head>
+<body>
+    <!-- svg -->
+    <svg display="none">
+      <symbol id="arrow" viewBox="0 0 384.928 384.928">
+        <g>
+        	<path d="M321.339,245.334c-4.74-4.692-12.439-4.704-17.179,0l-99.551,98.564V12.03
+        		c0-6.641-5.438-12.03-12.151-12.03s-12.151,5.39-12.151,12.03v331.868l-99.551-98.552c-4.74-4.704-12.439-4.704-17.179,0
+        		s-4.74,12.319,0,17.011l120.291,119.088c4.692,4.644,12.499,4.644,17.191,0l120.291-119.088
+        		C326.091,257.653,326.091,250.038,321.339,245.334C316.599,240.642,326.091,250.038,321.339,245.334z"/>
+        	<g>
+      </symbol>
+      <symbol id="portfolio" viewBox="0 -31 512 512">
+          <g>
+            <path d="m497.09375 60.003906c-.03125 0-.0625-.003906-.09375-.003906h-136v-15c0-24.8125-20.1875-45-45-45h-120c-24.8125 0-45 20.1875-45 45v15h-136c-8.351562 0-15 6.84375-15 15v330c0 24.8125 20.1875 45 45 45h422c24.8125 0 45-20.1875 45-45v-329.683594c0-.019531 0-.039062 0-.058594-.574219-9.851562-6.632812-15.199218-14.90625-15.253906zm-316.09375-15.003906c0-8.269531 6.730469-15 15-15h120c8.269531 0 15 6.730469 15 15v15h-150zm295.1875 45-46.582031 139.742188c-2.042969 6.136718-7.761719 10.257812-14.226563 10.257812h-84.378906v-15c0-8.285156-6.714844-15-15-15h-120c-8.285156 0-15 6.714844-15 15v15h-84.378906c-6.464844 0-12.183594-4.121094-14.226563-10.257812l-46.582031-139.742188zm-175.1875 150v30h-90v-30zm181 165c0 8.269531-6.730469 15-15 15h-422c-8.269531 0-15-6.730469-15-15v-237.566406l23.933594 71.796875c6.132812 18.40625 23.289062 30.769531 42.6875 30.769531h84.378906v15c0 8.285156 6.714844 15 15 15h120c8.285156 0 15-6.714844 15-15v-15h84.378906c19.398438 0 36.554688-12.363281 42.6875-30.769531l23.933594-71.796875zm0 0"/>
+          </g>
+      </symbol>
+
+      <symbol id="facebook" viewBox="0 0 155.139 155.139">
+        <g>
+          <path  d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184
+            c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452
+            v20.341H37.29v27.585h23.814v70.761H89.584z"/>
+        </g>
+      </symbol>
+
+      <symbol id="twitter" viewBox="0 0 512 512">
+        <g>
+          <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+            c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+            c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+            c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+            c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+            c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+            C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+            C480.224,136.96,497.728,118.496,512,97.248z"/>
+        </g>
+      </symbol>
+
+      <symbol id="google-plus" viewBox="0 0 475.092 475.092">
+        <g>
+      		<path d="M273.372,302.498c-5.041-6.762-10.608-13.045-16.7-18.842c-6.091-5.804-12.183-11.088-18.271-15.845
+      			c-6.092-4.757-11.659-9.329-16.702-13.709c-5.042-4.374-9.135-8.945-12.275-13.702c-3.14-4.757-4.711-9.61-4.711-14.558
+      			c0-6.855,2.19-13.278,6.567-19.274c4.377-5.996,9.707-11.799,15.986-17.417c6.28-5.617,12.559-11.753,18.844-18.415
+      			c6.276-6.665,11.604-15.465,15.985-26.412c4.373-10.944,6.563-23.458,6.563-37.542c0-16.75-3.713-32.835-11.136-48.25
+      			c-7.423-15.418-17.89-27.412-31.405-35.976h38.54L303.2,0H178.441c-17.699,0-35.498,1.906-53.384,5.72
+      			c-26.453,5.9-48.723,19.368-66.806,40.397C40.171,67.15,31.129,90.99,31.129,117.637c0,28.171,10.138,51.583,30.406,70.233
+      			c20.269,18.649,44.585,27.978,72.945,27.978c5.71,0,12.371-0.478,19.985-1.427c-0.381,1.521-1.043,3.567-1.997,6.136
+      			s-1.715,4.62-2.286,6.14c-0.57,1.521-1.047,3.375-1.425,5.566c-0.382,2.19-0.571,4.428-0.571,6.71
+      			c0,12.563,6.086,26.744,18.271,42.541c-14.465,0.387-28.737,1.67-42.825,3.86c-14.084,2.19-28.833,5.616-44.252,10.28
+      			c-15.417,4.661-29.217,11.42-41.396,20.27c-12.182,8.854-21.317,19.366-27.408,31.549C3.533,361.559,0.01,374.405,0.01,386.017
+      			c0,12.751,2.857,24.314,8.565,34.69c5.708,10.369,13.035,18.842,21.982,25.406c8.945,6.57,19.273,12.083,30.978,16.562
+      			c11.704,4.47,23.315,7.659,34.829,9.562c11.516,1.903,22.888,2.854,34.119,2.854c51.007,0,90.981-12.464,119.909-37.397
+      			c26.648-23.223,39.971-50.062,39.971-80.517c0-10.855-1.57-20.984-4.712-30.409C282.51,317.337,278.42,309.254,273.372,302.498z
+      			 M163.311,198.722c-9.707,0-18.937-2.475-27.694-7.426c-8.757-4.95-16.18-11.374-22.27-19.273
+      			c-6.088-7.898-11.418-16.796-15.987-26.695c-4.567-9.896-7.944-19.792-10.135-29.692c-2.19-9.895-3.284-19.318-3.284-28.265
+      			c0-18.271,4.854-33.974,14.562-47.108c9.705-13.134,23.411-19.701,41.112-19.701c12.563,0,23.935,3.899,34.118,11.704
+      			c10.183,7.804,18.177,17.701,23.984,29.692c5.802,11.991,10.277,24.407,13.417,37.257c3.14,12.847,4.711,24.983,4.711,36.403
+      			c0,19.036-4.139,34.317-12.419,45.833C195.144,192.964,181.775,198.722,163.311,198.722z M242.251,413.123
+      			c-5.23,8.949-12.319,15.94-21.267,20.981c-8.946,5.048-18.509,8.758-28.693,11.14c-10.183,2.385-20.889,3.572-32.12,3.572
+      			c-12.182,0-24.27-1.431-36.258-4.284c-11.99-2.851-23.459-7.187-34.403-12.991c-10.944-5.8-19.795-13.798-26.551-23.982
+      			c-6.757-10.184-10.135-21.744-10.135-34.69c0-11.419,2.568-21.601,7.708-30.55c5.142-8.945,11.709-16.084,19.702-21.408
+      			c7.994-5.332,17.319-9.713,27.979-13.131c10.66-3.433,20.937-5.808,30.833-7.139c9.895-1.335,19.985-1.995,30.262-1.995
+      			c6.283,0,11.043,0.191,14.277,0.567c1.143,0.767,4.043,2.759,8.708,5.996s7.804,5.428,9.423,6.57
+      			c1.615,1.137,4.567,3.326,8.85,6.563c4.281,3.237,7.327,5.661,9.135,7.279c1.803,1.618,4.421,4.045,7.849,7.279
+      			c3.424,3.237,5.948,6.043,7.566,8.422c1.615,2.378,3.616,5.28,5.996,8.702c2.38,3.433,4.043,6.715,4.998,9.855
+      			c0.948,3.142,1.854,6.567,2.707,10.277c0.855,3.72,1.283,7.569,1.283,11.57C250.105,393.713,247.487,404.182,242.251,413.123z"/>
+      		<polygon points="401.998,73.089 401.998,0 365.449,0 365.449,73.089 292.358,73.089 292.358,109.636 365.449,109.636
+      			365.449,182.725 401.998,182.725 401.998,109.636 475.081,109.636 475.081,73.089 		"/>
+      	</g>
+      </symbol>
+    </svg>
+      <header class="header">
+          <div class="container">
+              <div class="header__inner">
+                <div class="header__logo" id="header_logo" onclick="alert('Click')">
+                      <a href="#" style="color:#fff">Spirit8</a>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">HOME</a>
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">SERVICES</a>
+                    <a class="nav__link" href="#">portfolio</a>
+                    <a class="nav__link" href="#">testimonials</a>
+                    <a class="nav__link" href="#">CONTACT</a>
+                </nav>
+
+
+             </div> <!--header__inner-->
+
+                <div class="intro">
+                    <div class="intro_inner">
+                        <div class="intro__title">
+                          <h1>WELCOME on <span>spirit8</span></h1>
+                        </div>
+                        <div class="intro__text">
+                          <p>We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></p>
+                        </div>
+                        <div class="scroll">
+                          <a class="scroll_arrow" id="scrolling" href="#aman">
+                            <svg class="arrow">
+                              <use xlink:href="#arrow"></use>
+                            </svg>
+                          </a>
+                       </div>
+                  </div>
+              </div> <!--intro-->
+          </div> <!--container-->
+      </header>
+
+      <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__item">
+                        <div class="left">
+                          <img class="about_image" src="images/mac.jpg" alt="">
+                        </div>
+
+                      <div class="right">
+                        <div class="about_title">
+                            <p>Simple & Elegant User Interface</p>
+                        </div>
+                        <div class="about_text">
+                          <p>One morning, when Gregor Samsa woke from troubled dreams, he himself transformed in bed into a horrible vermin. He  his armour-back.</p>
+                        </div>
+
+                        <div class="about__subtext">
+                            <p>We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                        </div>
+
+                        <ul class="goals">
+                          <li>Mission - We deliver uniqueness and quality</li>
+                          <li>Skills - Delivering fast and excellent results</li>
+                          <li>Clients - Satisfied clients thanks to our experience</li>
+                        </ul>
+
+                        <a class="btn" href="#">
+                          <svg class="btn_icon">
+                            <use xlink:href="#portfolio"></use>
+                          </svg>
+                          Browse our work</a>
+                      </div>
+                   </div>
+                </div>
+            </div>
+      </section>
+      <section class="team">
+
+          <div class="container">
+              <h3 class="team_title"><span>Meet</span> our team</h3>
+              <div class="team_inner">
+
+                  <div class="team_item">
+                      <img class="team_photo" src="https://placehold.it/128" alt="photo-worker">
+                      <div class="team_name">
+                          Jason Statham
+                      </div>
+                      <div class="team_special">
+                          Knife designer
+                      </div>
+                      <div class="team_text">
+                          <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                      </div>
+                  </div>
+                  <div class="team_item">
+                      <img class="team_photo" src="https://placehold.it/128" alt="photo-worker">
+                      <div class="team_name">
+                          Van Damme
+                      </div>
+                      <div class="team_special">
+                          No English
+                      </div>
+                      <div class="team_text">
+                          <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                      </div>
+                  </div>
+                  <div class="team_item">
+                      <img class="team_photo" src="https://placehold.it/128" alt="photo-worker">
+                      <div class="team_name">
+                          Sylvester Stallone
+                      </div>
+                      <div class="team_special">
+                          Cigar Lover
+                      </div>
+                      <div class="team_text">
+                          <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                      </div>
+                  </div>
+                  <div class="team_item">
+                      <img class="team_photo" src="https://placehold.it/128" alt="photo-worker">
+                      <div class="team_name">
+                          Jet Li
+                      </div>
+                      <div class="team_special">
+                          I need more money
+                      </div>
+                      <div class="team_text">
+                          <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                      </div>
+                  </div>
+
+              </div>
+              <ul class="views">
+                <li id="active"></li>
+                  <li></li>
+                    <li></li>
+              </ul>
+          </div>
+      </section>
+
+      <section class="portfolio">
+          <div class="container">
+            <div class="menu">
+              <div class="portfolio_title">
+                Filter by type
+              </div>
+              <nav class="nav other">
+                <a class="nav__links" href="#">All</a>
+                <a class="nav__links" href="#">Web design</a>
+                <a class="nav__links" href="#">Mobile design</a>
+                <a class="nav__links" href="#">Photograpy</a>
+              </nav>
+            </div>
+              <div class="portfolio__inner">
+                <div class="portfolio__item">
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/1.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/1.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/1.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/1.jpg" alt="">
+                  </a>
+
+                </div>
+                <div class="portfolio__item">
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/2.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/2.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/2.jpg" alt="">
+                  </a>
+                  <a href="#">
+                      <img  class="portfolio__image" src="images/list/2.jpg" alt="">
+                  </a>
+
+                </div>
+
+                <div class="portfolio__item">
+                  <a class="center" href="#">
+                      <img  class="portfolio__image" src="images/list/3.jpg" alt="">
+                  </a>
+                  <a class="center" href="#">
+                      <img  class="portfolio__image" src="images/list/3.jpg" alt="">
+                  </a>
+                  <a class="center" href="#">
+                      <img  class="portfolio__image" src="images/list/3.jpg" alt="">
+                  </a>
+                  <a class="center" href="#">
+                      <img  class="portfolio__image" src="images/list/3.jpg" alt="">
+                  </a>
+
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="testimonials">
+          <div class="container">
+              <div class="testimonials__inner">
+                  <div class="testimonials__item">
+                        <h3 class="team_title">our clients’ <span>testimonials</span></h3>
+
+                        <div class="testimonials_text">
+                            <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                        </div>
+                        <div class="testimonials_author">
+                            <p><span>Dean Martin,</span> CEO Acme Inc.</p>
+                        </div>
+                  </div>
+                  <ul class="views">
+                    <li id="active"></li>
+                      <li></li>
+                        <li></li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact_title">
+                    <h3 class="team_title red"><span>feel free to</span> contact us</h3>
+                </div>
+                <div class="testimonials_text contact">
+                    <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. </p>
+                </div>
+            </div>
+
+        </div>
+      </section>
+      <footer id="footer">
+          <div class="container">
+            <div class="footer_inner">
+              <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014 SPIRIT8</p>
+                <div class="footer_item">
+                  <a href="https://facebook.com" target="_blank">
+                    <svg class="footer_icon">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="https://twitter.com" target="_blank">
+                    <svg class="footer_icon">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="file:///C:/Users/bakyt/Desktop/site/site_first/page2.html" target="_blank">
+                    <svg class="footer_icon">
+                      <use xlink:href="#google-plus"></use>
+                    </svg>
+                  </a>
+                </div>
+
+
+            </div>
+          </div>
+      </footer>
+
+      <script src="js/style.js">
+      </script>
+</body>
+</html>
